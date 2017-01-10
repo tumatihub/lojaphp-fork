@@ -4,11 +4,11 @@
 
 <form action="adiciona-produto.php">
 	Nome:
-	<input type="text" name="nome"><br/>
+	<input class="form-control" type="text" name="nome"><br/>
 	Preço:
-	<input type="number" name="preco"><br/>
+	<input class="form-control" type="number" name="preco"><br/>
 
-	<input type="submit" value="Cadastrar">
+	<input class="btn btn-primary" type="submit" value="Cadastrar">
 </form>	
 
 <?php require "footer.php" ?>
