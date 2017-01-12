@@ -12,11 +12,11 @@ $categorias = listaCategorias($conexao);
 <form action="adiciona-produto.php" method="post">
 	<div class="form-group">
 		<label for="nome">Nome:</label>
-		<input class="form-control" type="text" name="nome" id="nome"><br/>
+		<input class="form-control" type="text" name="nome" id="nome">
 	</div>
 	<div class="form-group">
 		<label for="preco">Preço:</label>
-		<input class="form-control" type="number" name="preco" id="preco"><br/>
+		<input class="form-control" type="number" name="preco" id="preco">
 	</div>
 	<div class="form-group">
 		<label for="descricao">Descrição:</label>
