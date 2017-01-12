@@ -1,9 +1,14 @@
-<?php require "header.php";
- require "conecta.php"; 
- require "banco-produto.php" ?>
+<?php
+	require "header.php";
+ 	require "conecta.php"; 
+ 	require "banco-produto.php";
+ 	require "logica-usuario.php";
+?>
 
 <?php 
 
+
+verificaUsuario();
 
 $nome = $_POST['nome'];
 $preco = $_POST['preco'];

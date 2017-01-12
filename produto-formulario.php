@@ -2,6 +2,10 @@
 require "header.php";
 require "conecta.php";
 require "banco-categoria.php";
+require "logica-usuario.php";
+
+
+verificaUsuario();
 
 $categorias = listaCategorias($conexao);
 
