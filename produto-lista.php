@@ -1,14 +1,9 @@
-<?php require "header.php";
- require "conecta.php";
- require "banco-produto.php" ?>
-
-<?php 
-if ( array_key_exists("removido", $_GET) && $_GET['removido'] == 'true' ) {
-?>
-	<p class="alert-success">Produto apagado com sucesso.</p>
 <?php
-}
+require "header.php";
+require "conecta.php";
+require "banco-produto.php";
 ?>
+
 
 
 <table class="table table-striped table-bordered">
