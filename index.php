@@ -24,6 +24,7 @@ if (usuarioEstaLogado()) {
 			<input class="form-control" type="password" name="senha" id="senha">
 		</div>
 		<input class="btn btn-primary" type="submit" value="Login">
+		<a href="cadastro-formulario.php" class="btn btn-success">Cadastrar</a>
 	</form>
 <?php } ?>
 

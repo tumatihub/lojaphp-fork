@@ -8,3 +8,14 @@ function buscaUsuario($conexao, $email, $senha){
 	$resultado = mysqli_query($conexao, $query);
 	return mysqli_fetch_assoc($resultado);
 }
+
+function usuarioExiste($conexao, $email){
+	$email = mysqli_real_escape_string($conexao, $email);
+	$query = "SELECT * FROM usuarios WHERE email = '{$email}'";
+	$resultado = mysqli_query($conexao, $query);
+	if ($resultado->num_rows) {
+		return true;
+	} else {
+		return false;
+	}
+}
