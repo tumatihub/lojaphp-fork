@@ -1,8 +1,7 @@
 <?php
-	require "header.php";
- 	require "conecta.php"; 
- 	require "banco-produto.php";
- 	require "logica-usuario.php";
+	require_once("header.php"); 
+ 	require_once("banco-produto.php");
+ 	require_once("logica-usuario.php");
 ?>
 
 <?php 

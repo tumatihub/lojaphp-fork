@@ -1,7 +1,6 @@
 <?php
-require "conecta.php";
-require "banco-usuario.php";
-require "logica-usuario.php";
+require_once("banco-usuario.php");
+require_once("logica-usuario.php");
 ?>
 
 <?php 

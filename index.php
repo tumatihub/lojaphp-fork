@@ -1,6 +1,6 @@
 <?php
-require "header.php";
-require "logica-usuario.php";
+require_once("header.php");
+require_once("logica-usuario.php");
 ?>
 
 <h1>Hello!</h1>

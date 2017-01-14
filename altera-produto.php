@@ -1,6 +1,7 @@
-<?php require "header.php";
- require "conecta.php"; 
- require "banco-produto.php" ?>
+<?php 
+require_once("header.php"); 
+require_once("banco-produto.php");
+?>
 
 <?php 
 
