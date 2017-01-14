@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;
 $mail->SMTPDebug = 0;
 
 $mail->Username = 'tumatmailer@gmail.com';
-$mail->Password = 'Q!w2e3r4t5';
+$mail->Password = '';
 
 $mail->setFrom('tumatmailer@gmail.com', 'TumaTi');
 $mail->addAddress('jgsoaresdias@gmail.com');
