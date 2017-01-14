@@ -6,6 +6,8 @@ require_once("logica-usuario.php");
 
 <?php
 
+verificaUsuario();
+
 $id = $_POST['id'];
 
 removeProduto($conexao, $id);
