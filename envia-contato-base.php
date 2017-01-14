@@ -1,4 +1,10 @@
 <?php
+
+// Arquivo base sem a senha do e-mail
+// copie esse arquivo com o nome envia-contato.php
+// e adicione a senha do e-mail para funcionar
+
+
 require_once("mail/PHPMailerAutoload.php");
 session_start();
 
